@@ -10,7 +10,7 @@ print('Enter an integer as the base value:', end=' ')
 BaseValue = int(input())
 print('Enter an integer as the exponent:', end=' ')
 Exponent = int(input())
-Answer = BaseValue * Exponent
+Answer = BaseValue ^ Exponent
 
 
 print('\n\n',BaseValue, 'raised to the power of', Exponent,'is', Answer,'!!')
