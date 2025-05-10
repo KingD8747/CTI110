@@ -1,0 +1,37 @@
+import turtle
+wn = turtle.Screen()
+d = turtle.Turtle()
+d.color("red")
+d.pensize(3)
+
+k = turtle.Turtle()
+k.color("red")
+k.pensize(3)
+
+
+d.left(30)
+d.forward(25)
+d.left(60)
+d.forward(50)
+d.left(30)
+d.forward(40)
+d.left(150)
+d.forward(100)
+
+k.penup()
+k.forward(60)
+k.pendown()
+k.left(90)
+k.forward(40)
+k.left(225)
+k.forward(55)
+k.left(180)
+k.forward(55)
+k.left(-80)
+k.forward(60)
+k.left(180)
+k.forward(60)
+k.left(-145)
+k.forward(50)
+
+wn.mainloop()
